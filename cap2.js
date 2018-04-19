@@ -1,5 +1,5 @@
 //Looping a triangle
-var hashtag = "";
+let hashtag = "";
 for (i = 0; i < 6; i++) {
     hashtag += "#";
     console.log(hashtag);
@@ -13,8 +13,8 @@ for (i = 1; i <= 100; i++) {
 }
 
 //Chess board
-var size = Number(prompt("Qual é o tamanho do tabuleiro?"));
-for(var i = 0; i < size; i++) {
+const size = Number(prompt("Qual é o tamanho do tabuleiro?"));
+for(let i = 0; i < size; i++) {
     if (i % 2) {
         console.log("# ".repeat(size));
     } else {
